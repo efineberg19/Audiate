@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libsoloud.a  CMakeFiles/soloud.dir/example.cc.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libsoloud.a

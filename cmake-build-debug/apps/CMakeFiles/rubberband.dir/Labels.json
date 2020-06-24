@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/CMakeFiles/rubberband"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/CMakeFiles/rubberband.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/CMakeFiles/rubberband-complete.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-install.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-mkdir.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-download.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-update.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-patch.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-configure.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/rubberband-prefix/src/rubberband-stamp/rubberband-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"rubberband"
+		],
+		"name" : "rubberband"
+	}
+}

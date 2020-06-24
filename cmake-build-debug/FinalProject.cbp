@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="FinalProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\proj\;CMake Files\..\..\proj\cmake\;CMake Files\..\..\proj\cmake\modules\;CMake Files\..\..\lib\;CMake Files\..\..\lib\macosx\;CMake Files\..\..\lib\macosx\Debug\;CMake Files\..\..\cmake-build-debug\;CMake Files\..\..\cmake-build-debug\lib\;CMake Files\..\..\cmake-build-debug\lib\macosx\;CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\;CMake Files\..\..\blocks\;CMake Files\..\..\blocks\Cinder-ImGui\;CMake Files\..\..\blocks\Cinder-ImGui\proj\;CMake Files\..\..\blocks\Cinder-ImGui\proj\cmake\;CMake Files\cmake\;CMake Files\apps\;CMake Files\tests\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cinder-ImGui">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/libCinder-ImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Cinder-ImGui"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cinder-ImGui/fast">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/libCinder-ImGui.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 Cinder-ImGui/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylibrary">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/libmylibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mylibrary"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylibrary/fast">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/libmylibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 mylibrary/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinder-myapp">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Debug/cinder-myapp/cinder-myapp.app/Contents/MacOS/cinder-myapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 cinder-myapp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cinder-myapp/fast">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Debug/cinder-myapp/cinder-myapp.app/Contents/MacOS/cinder-myapp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 cinder-myapp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/apps/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Debug/test/test.app/Contents/MacOS/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/Debug/test/test.app/Contents/MacOS/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="0"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DFT2_BUILD_LIBRARY"/>
+					<Add option="-DFT_DEBUG_LEVEL_TRACE"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/catch2-src/single_include"/>
+					<Add directory="/Users/beth/cinder_0.9.2_mac/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui/imgui.cpp">
+			<Option target="Cinder-ImGui"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui/imgui.h">
+			<Option target="Cinder-ImGui"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui/imgui_draw.cpp">
+			<Option target="Cinder-ImGui"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/lib/imgui/imgui_widgets.cpp">
+			<Option target="Cinder-ImGui"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/blocks/Cinder-ImGui/src/CinderImGui.cpp">
+			<Option target="Cinder-ImGui"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/apps/my_app.cc">
+			<Option target="cinder-myapp"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/apps/my_app.h">
+			<Option target="cinder-myapp"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/apps/run.cc">
+			<Option target="cinder-myapp"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/AudioDrawUtils.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/example.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/file_player.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/sine.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/sound_engine.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/sound_node.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/sound_wave.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/traingle.cc">
+			<Option target="mylibrary"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/tests/sound_objects_test.cc">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/samples/data/CinderApp.icns">
+			<Option target="mylibrary"/>
+			<Option target="cinder-myapp"/>
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/../../proj/cmake/configure.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/../../proj/cmake/utilities.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/../../proj/cmake/modules/cinderMakeApp.cmake">
+			<Option virtualFolder="CMake Files\..\..\proj\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/../../lib/macosx/Debug/cinderConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/../../cmake-build-debug/lib/macosx/Debug/cinderTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\cmake-build-debug\lib\macosx\Debug\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/../../blocks/Cinder-ImGui/proj/cmake/Cinder-ImGuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\blocks\Cinder-ImGui\proj\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake/make_cinder_library.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/apps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\apps\"/>
+		</Unit>
+		<Unit filename="/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

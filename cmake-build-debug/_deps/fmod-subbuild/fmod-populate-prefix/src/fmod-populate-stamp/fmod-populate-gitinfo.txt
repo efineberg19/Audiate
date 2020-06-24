@@ -1,0 +1,3 @@
+repository='https://github.com/efineberg19/Cinder-FMOD.git'
+module=''
+tag='origin'

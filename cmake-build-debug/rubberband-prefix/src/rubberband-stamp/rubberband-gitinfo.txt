@@ -1,0 +1,3 @@
+repository='https://github.com/lachs0r/rubberband.git'
+module=''
+tag='origin'

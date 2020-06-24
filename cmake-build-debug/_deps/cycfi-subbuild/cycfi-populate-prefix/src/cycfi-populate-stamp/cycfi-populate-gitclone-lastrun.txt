@@ -1,0 +1,3 @@
+repository='https://github.com/cycfi/Q.git'
+module=''
+tag='origin'

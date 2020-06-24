@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libCinder-FMOD.a  
+/Library/Developer/CommandLineTools/usr/bin/ranlib libCinder-FMOD.a

@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++ -fprofile-instr-generate -fcoverage-mapping -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -dynamiclib -Wl,-headerpad_max_install_names  -o libportaudio.dylib -install_name @rpath/libportaudio.dylib  -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon -lm -lpthread 

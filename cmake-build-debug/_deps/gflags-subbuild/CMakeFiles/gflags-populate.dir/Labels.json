@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/CMakeFiles/gflags-populate"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/CMakeFiles/gflags-populate.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/CMakeFiles/gflags-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-install.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-download.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-update.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-build.rule"
+		},
+		{
+			"file" : "/Users/beth/cinder_0.9.2_mac/my-projects/final-project-efineberg19/cmake-build-debug/_deps/gflags-subbuild/gflags-populate-prefix/src/gflags-populate-stamp/gflags-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gflags-populate"
+		],
+		"name" : "gflags-populate"
+	}
+}

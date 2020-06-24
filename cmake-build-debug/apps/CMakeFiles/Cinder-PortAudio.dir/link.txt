@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libCinder-PortAudio.a  CMakeFiles/Cinder-PortAudio.dir/Users/beth/cinder_0.9.2_mac/blocks/Cinder-PortAudio/src/cinder/audio/ContextPortAudio.cpp.o CMakeFiles/Cinder-PortAudio.dir/Users/beth/cinder_0.9.2_mac/blocks/Cinder-PortAudio/src/cinder/audio/DeviceManagerPortAudio.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libCinder-PortAudio.a

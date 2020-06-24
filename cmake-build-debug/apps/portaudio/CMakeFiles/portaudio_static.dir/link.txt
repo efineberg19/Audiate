@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libportaudio_static.a  
+/Library/Developer/CommandLineTools/usr/bin/ranlib libportaudio_static.a
