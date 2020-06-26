@@ -28,7 +28,7 @@ Note: This project has not been tested on Windows or with IDEs other than CLion.
 
 If you're using CLion on Mac, open the project and try to run cinder-myapp. It 
 will probably not work, so go to Edit Configurations and for your Executable, select: 
-```my-projects/final-project-efineberg19/cmake-build-debug/Debug/cinder-myapp/Contents/MacOS/cinder-myapp ```
+```my-projects/Audiate/cmake-build-debug/Debug/cinder-myapp/Contents/MacOS/cinder-myapp ```
 
 The project should now be all set to run.
 
